@@ -27,4 +27,4 @@ jobs:
           pip install -q pytest nbformat nbclient ipykernel scikit-learn pandas numpy
 
       - name: Run checkpoint ${{ matrix.week }}
-        run: pytest exercises_with_checks/checks/test_${{ matrix.week }}_knn.py -v --tb=short
+        run: pytest exercises_with_checks/checks/test_${{ matrix.week }}.py -v --tb=short
