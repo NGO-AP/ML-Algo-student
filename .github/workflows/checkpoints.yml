@@ -23,6 +23,7 @@ jobs:
             tests: test_week04.py
           - week: week05
             tests: test_week05.py
+    steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
